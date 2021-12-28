@@ -1,5 +1,8 @@
 .content {
+  padding: 75px;
+}
+
+.main-content {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 75px;
 }
