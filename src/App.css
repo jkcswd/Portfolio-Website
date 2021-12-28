@@ -1,8 +1,9 @@
 .content {
-  padding: 75px;
+  padding: 4em;
 }
 
 .main-content {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-gap: 5em;
 }
