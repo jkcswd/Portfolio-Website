@@ -1,0 +1,28 @@
+.shop,
+.battleship,
+.weather {
+  align-items: center;
+  border: 1px solid #949494 ;
+  border-radius: 5px;
+  box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.5);
+  display: grid;
+  gap: 3em;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  margin-bottom: 3em;
+  padding: 1em;
+  width: 100%;
+  transition: 0.3s;
+}
+
+.shop:hover,
+.battleship:hover,
+.weather:hover {
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.7);
+  transform: scale(1.01);
+} 
+
+.Projects 
+img {
+  height: 20em;
+}
