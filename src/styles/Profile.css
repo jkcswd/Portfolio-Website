@@ -1,0 +1,21 @@
+.Profile p{
+  margin-bottom: 10px;
+  padding: 20px;
+  font-size: 20px;
+ }
+ 
+ .Profile ul {
+   text-align: center;
+   margin-top: 20px;
+ }
+ 
+ .Profile li {
+   margin-bottom: 10px;
+ }
+ 
+ .Profile h2 {
+   font-size: 40px;
+   font-weight: bold;
+   text-align: center;
+ }
+ 

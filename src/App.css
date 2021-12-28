@@ -3,24 +3,3 @@
   grid-template-columns: 1fr 1fr;
   padding: 75px;
 }
-
-.profile p{
- margin-bottom: 10px;
- padding: 20px;
- font-size: 20px;
-}
-
-.profile ul {
-  text-align: center;
-  margin-top: 20px;
-}
-
-.profile li {
-  margin-bottom: 10px;
-}
-
-.profile h2 {
-  font-size: 40px;
-  font-weight: bold;
-  text-align: center;
-}
