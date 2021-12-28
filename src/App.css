@@ -2,6 +2,10 @@
   padding: 4em;
 }
 
+.content > *{
+  margin-bottom: 5em;
+}
+
 .main-content {
   display: grid;
   grid-template-columns: 1fr 1fr;
