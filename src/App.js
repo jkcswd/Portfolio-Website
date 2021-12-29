@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Headline from './components/Headline';
 import Profile from './components/Profile';
 import Projects from './components/Projects';
+import Skills from './components/Skills';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Headline/>
           <Profile/>
         </article>
+        <Skills/>
         <Projects/>
         <Footer/>
       </section>
