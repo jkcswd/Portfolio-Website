@@ -3,6 +3,7 @@ import '../styles/Projects.css';
 const Projects = () => {
   return (
     <section className="Projects">
+      <h1>Projects</h1>
       <div className="shop">
         <p>
           An example E-commerce Website. It consumes an example API from the Fake Store API, takes the data and displays it in
