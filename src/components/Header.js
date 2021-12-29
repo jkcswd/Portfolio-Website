@@ -6,9 +6,8 @@ const Header = () => {
       <h1>James Spencer</h1>
       <nav>
         <ul>
-          <li>CV</li>
-          <li>Github</li>
-          <li>LinkedIn</li>
+          <li><a target="_blank" href={process.env.PUBLIC_URL + 'assets/CV.pdf'}>CV</a></li>
+          <li><a target="_blank"  href="https://github.com/jkcswd">Github</a></li>
         </ul>
       </nav>
     </header>
