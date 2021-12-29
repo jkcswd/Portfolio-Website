@@ -3,7 +3,7 @@
 }
 
 .Profile p{
-margin-bottom: 0.5em;
+margin-bottom: 1em;
 padding: 1em;
 font-size: 1.5em;
 }
@@ -12,15 +12,3 @@ font-size: 1.5em;
   text-align: center;
   margin-top: 1em;
 }
-
-.Profile li {
-  margin-bottom: 0.5em;
-}
-
-.Profile h2 {
-  font-size: 2.5em;
-  font-weight: bold;
-  text-align: center;
-  margin-top: 3em;
-}
- 
