@@ -1,13 +1,12 @@
 .content {
-  padding: 4em;
-}
-
-.content > *{
-  margin-bottom: 5em;
+  padding: 5em;
+  background-image: linear-gradient(var(--white), #e2fbff);
 }
 
 .main-content {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 5em;
+  display: flex;
+  flex-direction: column;
+  margin: 5em auto ;
+  text-align: center;
+  width: 80%;
 }
