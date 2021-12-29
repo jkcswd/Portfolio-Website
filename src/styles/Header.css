@@ -23,6 +23,10 @@
 
 .Header li {
   margin: 10px;
+  transition: 0.5s;
+}
+.Header li:hover {
+  transform: scale(1.2);
 }
 
 .Header h1 {
