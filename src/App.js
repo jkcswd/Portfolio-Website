@@ -18,14 +18,14 @@ function App() {
     <div className="App">
       <Header/>
       <section className="content">
-        <article className="main-content" data-aos="fade-right">
+        <article className="main-content" data-aos="fade-in">
           <Headline/>
           <Profile/>
         </article>
-        <div data-aos="fade-right">
+        <div data-aos="fade-in">
           <Skills /> 
         </div>
-        <div data-aos="fade-right">
+        <div data-aos="fade-in">
          <Projects />
         </div>
         
