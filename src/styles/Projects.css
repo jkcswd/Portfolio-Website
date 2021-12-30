@@ -1,47 +1,26 @@
 .Projects {
+  align-items: center;
   display: flex;
   flex-direction: column;
-  margin-top: 8em;
-}
-
-.shop,
-.battleship,
-.weather {
-  align-items: center;
-  border: 1px solid #949494 ;
-  border-radius: 5px;
-  box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.5);
-  display: grid;
-  font-size: 1.25em;
-  gap: 3em;
-  grid-template-columns: 1fr 1fr;
-  justify-items: center;
-  margin-bottom: 3em;
-  padding: 1em;
-  width: 80%;
-  transition: 0.3s;
-}
-
-.shop:hover,
-.battleship:hover,
-.weather:hover {
-  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.7);
-  transform: scale(1.01);
-} 
-
-.shop,
-.weather {
-  align-self: flex-end;
+  margin-bottom: 8em;
 }
 
 .Projects 
 img {
-  height: 20em;
+  width: 80vw;
+  border: 2px solid var(--black);
+  border-radius: 20px;
+  box-shadow: 0 0 3px 10px rgba(0, 0, 0, 0.3);
+  transition: 0.3s;
+}
+.Projects 
+img:hover {
+  box-shadow: 0 0 3px 10px rgba(0, 0, 0, 0.5);
+  transform: scale(1.01);
 }
 
 .Projects 
 h1 {
-  align-self: center;
   font-size: 4em;
   font-weight: bold;
   margin-bottom: 1em;

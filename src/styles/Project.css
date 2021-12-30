@@ -1,0 +1,14 @@
+.Project {
+  position: relative;
+}
+
+.Project 
+p {
+  color: var(--white);
+  position: absolute;
+  border: 2px solid var(--black);
+  border-radius: 20px;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 100%;
+}
