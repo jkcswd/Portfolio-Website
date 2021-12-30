@@ -1,4 +1,9 @@
-.Skills { text-align: center; }
+.Skills { 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 8em;
+}
 
 .Skills
 h1 {
@@ -8,13 +13,19 @@ h1 {
 }
 .Skills
 li {
-  display: inline;
-  margin-right: 2em;
   font-size: 2em;
+  margin: 1em;
 }
 
 .Skills 
 img {
   height: 10em;
   margin-bottom: 3em;
+}
+
+.Skills 
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
