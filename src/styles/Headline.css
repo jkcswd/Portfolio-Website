@@ -1,5 +1,12 @@
 .Headline {
+  border-bottom: 2px solid var(--black);
   font-family: 'Bebas Neue', cursive;
   font-size: 10em;
   margin-bottom: 0.5em;
+}
+
+@media screen and (max-width: 400px) {
+  .Headline {
+    font-size: 5em;
+  }
 }
