@@ -8,6 +8,7 @@ import Projects from './components/Projects';
 import Skills from './components/Skills';
 import Aos from 'aos';
 import 'aos/dist/aos.css'
+import Contact from './components/Contact';
 
 function App() {
   useEffect(() => {
@@ -28,7 +29,9 @@ function App() {
         <div data-aos="fade-in">
          <Projects />
         </div>
-        
+        <div data-aos="fade-in">
+          <Contact/>
+        </div>
         <Footer/>
       </section>
     </div>
