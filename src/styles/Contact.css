@@ -1,0 +1,14 @@
+.Contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2em;
+}
+
+.Contact 
+h1 {
+  font-size: 4em;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+
