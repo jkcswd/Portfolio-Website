@@ -8,16 +8,17 @@ const Skills = () => {
       <img src={process.env.PUBLIC_URL + 'images/reactIcon.png'}/>
       <ul>
         <li>JavaScript</li>
+        <li>Express</li>
+        <li>React</li>
+        <li>MongoDB</li>
+        <li>Mongoose</li>
         <li>HTML</li>
         <li>CSS</li>
-        <li>React</li>
         <li>Scss</li>
-        <li>JSON</li>
-        <li>APIs</li>
+        <li>REST APIs</li>
         <li>Jest</li>
         <li>Linux</li>
         <li>Webpack</li>
-        <li>NPM</li>
       </ul>
     </section>
   );
